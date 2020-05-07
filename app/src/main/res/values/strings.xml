@@ -1,0 +1,238 @@
+<resources>
+
+    <!--
+    *
+    * APP & ACTIVITY NAMES
+    *
+    *-->
+
+    <!-- Name for the application [CHAR LIMIT=12] -->
+    <string name="app_name">Mobile Inventory</string>
+
+    <!-- Title for the activity to add a new product [CHAR LIMIT=20] -->
+    <string name="editor_activity_title_new_product">Tambah Produk</string>
+
+    <!-- Title for the activity to edit an existing product [CHAR LIMIT=20] -->
+    <string name="editor_activity_title_edit_product">Edit Produk</string>
+
+    <!--
+    *
+    * EMPTY STOCK TEXTS
+    *
+    *-->
+
+    <!-- Title text for the empty view, which describes the empty dog house image [CHAR LIMIT=50] -->
+    <string name="empty_view_title_text">BELUM ADA BARANG TERSEDIA&#8230;</string>
+
+    <!-- Subtitle text for the empty view that prompts the user to add a product [CHAR LIMIT=50] -->
+    <string name="empty_view_subtitle_text">Tambahkan beberapa untuk memulai</string>
+
+    <!--
+    *
+    * MENU LABELS
+    *
+    *-->
+
+    <!-- Label for overflow menu option that inserts fake product data into the app [CHAR LIMIT=20] -->
+    <string name="action_insert_dummy_data">Tambahkan Data Produk</string>
+
+    <!-- Label for overflow menu option that deletes all product data in the app [CHAR LIMIT=20] -->
+    <string name="action_delete_all_entries">Hapus Semua</string>
+
+    <!-- Label for editor menu option to save product and leave editor [CHAR LIMIT=20] -->
+    <string name="action_save">Simpan</string>
+
+    <!-- Label for editor overflow menu option that deletes the current product [CHAR LIMIT=20] -->
+    <string name="action_delete">Hapus</string>
+
+    <!--
+    *
+    * CATALOGUE LIST LABELS
+    *
+    *-->
+
+    <!-- Label for the unit price TextView [CHAR LIMIT=20] -->
+    <string name="unit_price_label">Unit Price :&#160;</string>
+
+    <!-- Label for the stock level TextView [CHAR LIMIT=20] -->
+    <string name="stock_level_label">Stock Level :&#160;</string>
+
+    <!-- Label for the button to sell products' units [CHAR LIMIT=20] -->
+    <string name="sell_button">Sell</string>
+
+    <!--
+    *
+    * EDITOR HEADERS
+    *
+    *-->
+
+    <!-- Label for product's image content description [CHAR LIMIT=30] -->
+    <string name="image_product_description">Image of the product</string>
+
+    <!-- Label for name category of attributes in the editor [CHAR LIMIT=30] -->
+    <string name="category_name">Nama</string>
+
+    <!-- Label for supplier category of attributes in the editor [CHAR LIMIT=30] -->
+    <string name="category_supplier">Supplier</string>
+
+    <!-- Label for price information in the editor [CHAR LIMIT=30] -->
+    <string name="category_unit_price">Harga</string>
+
+    <!-- Label for currency of the product's unit price (EURO) [CHAR LIMIT=5] -->
+    <string name="currency_product_unit_price">Rp.&#160;</string>
+
+    <!-- Label for stock information in the editor [CHAR LIMIT=30] -->
+    <string name="category_stock">Stok</string>
+
+    <!--
+    *
+    * EDIT TEXT HINTS
+    *
+    *-->
+
+    <!-- Text hint for name field in the editor [CHAR LIMIT=30] -->
+    <string name="hint_product_name">Nama Produk</string>
+
+    <!-- Text hint for supplier name field in the editor [CHAR LIMIT=30] -->
+    <string name="hint_product_supplier_name">Nama Supplier</string>
+
+    <!-- Text hint for supplier email address field in the editor [CHAR LIMIT=30] -->
+    <string name="hint_product_supplier_email">Email Supplier</string>
+
+    <!-- Text hint for the unit price field in the editor [CHAR LIMIT=30] -->
+    <string name="hint_product_unit_price">Harga Unit</string>
+
+    <!-- Text hint for the quantity field in the editor [CHAR LIMIT=30] -->
+    <string name="hint_product_quantity">Kuantitas</string>
+
+    <!--
+    *
+    * ORDER EMAIL TEXT PARTS
+    *
+    *-->
+
+    <!-- Text for subject prefix [CHAR LIMIT=50] -->
+    <string name="email_subject_prefix">New order for :&#160;</string>
+
+    <!-- Text for starting greetings [CHAR LIMIT=NONE] -->
+    <string name="order_email_starting_greeting">Dear&#160;</string>
+
+    <!-- Text for part one of current stock statement [CHAR LIMIT=NONE] -->
+    <string name="order_email_current_stock_statement_part_one">Our current stock level for the product&#160;</string>
+
+    <!-- Text for part two of current stock statement [CHAR LIMIT=NONE] -->
+    <string name="order_email_current_stock_statement_part_two">&#160;is :&#160;</string>
+
+    <!-- Text for email request and end greetings [CHAR LIMIT=NONE] -->
+    <string name="order_email_request_end_greetings">We would like to order new units of this product to increase our stock.\n\n
+    Could you please get back to as soon as possible to discuss this order in further details.\n\nBest regards,\n\nYour Client</string>
+
+    <!-- Line jump [CHAR LIMIT=N/A] -->
+    <string name="order_email_jump_line">\n\n</string>
+
+    <!-- Comma [CHAR LIMIT=N/A] -->
+    <string name="order_email_comma">,</string>
+
+    <!-- Point [CHAR LIMIT=N/A] -->
+    <string name="order_email_point">.</string>
+
+    <!--
+    *
+    * DIALOG MESSAGES
+    *
+    *-->
+
+    <!-- Dialog message when user is leaving editor but hasn't saved changes [CHAR LIMIT=NONE] -->
+    <string name="unsaved_changes_dialog_msg">Buang perubahan dan berhenti mengedit?</string>
+
+    <!-- Dialog button text for the option to discard a user's changes [CHAR LIMIT=20] -->
+    <string name="discard">Buang</string>
+
+    <!-- Dialog button text for the option to keep editing the current product [CHAR LIMIT=20] -->
+    <string name="keep_editing">Tetap Lanjutkan</string>
+
+    <!-- Dialog message to ask the user to confirm deleting the current product [CHAR LIMIT=NONE] -->
+    <string name="delete_dialog_msg">Hapus Produk Ini?</string>
+
+    <!-- Dialog message to ask the user to confirm deleting all products [CHAR LIMIT=NONE] -->
+    <string name="delete_all_products_dialog_msg">Hapus Semua Produk?</string>
+
+    <!-- Dialog button text for the option to confirm deleting the current product [CHAR LIMIT=20] -->
+    <string name="delete">Hapus</string>
+
+    <!-- Dialog button text for the option to cancel deletion of the current product [CHAR LIMIT=20] -->
+    <string name="cancel">Batal</string>
+
+    <!--
+    *
+    * NOTIFICATION TOAST MESSAGES
+    *
+    *-->
+
+    <!-- Toast message in editor when new product has been successfully inserted [CHAR LIMIT=NONE] -->
+    <string name="editor_insert_product_successful">Produk Disimpan</string>
+
+    <!-- Toast message in editor when current product was successfully updated [CHAR LIMIT=NONE] -->
+    <string name="editor_update_product_successful">Produk Teredit</string>
+
+    <!-- Toast message in editor when current product was successfully deleted [CHAR LIMIT=NONE] -->
+    <string name="editor_delete_product_successful">Produk Dihapus</string>
+
+    <!-- Toast message in catalog when a unit sale of given product has successfully been sold [CHAR LIMIT=NONE] -->
+    <string name="catalog_sell_product_item_successful">One unit has been sold</string>
+
+    <!-- Toast message in catalog when all products were successfully deleted [CHAR LIMIT=NONE] -->
+    <string name="catalog_delete_all_products_successful">Semua Produk Dihapus</string>
+
+    <!-- Toast message in catalog when users tries to delete all products from an empty products table [CHAR LIMIT=NONE] -->
+    <string name="catalog_products_table_is_empty">Database produk masih kosong!</string>
+
+    <!--
+    *
+    * ERROR TOAST MESSAGES
+    *
+    *-->
+
+    <!-- Toast message in editor when attempt to save a product without a name [CHAR LIMIT=NONE] -->
+    <string name="editor_product_requires_name">Produk wajib memiliki nama!</string>
+
+    <!-- Toast message in editor when attempt to save a product without a supplier name [CHAR LIMIT=NONE] -->
+    <string name="editor_product_requires_supplier_name">Produk wajib memiliki supplier!</string>
+
+    <!-- Toast message in editor when attempt to save a product without a supplier email address [CHAR LIMIT=NONE] -->
+    <string name="editor_product_requires_supplier_email">Alamat email perlu diisi !</string>
+
+    <!-- Toast message in editor when attempt to save a product with an invalid supplier email address [CHAR LIMIT=NONE] -->
+    <string name="editor_product_invalid_supplier_email">Email supplier tidak valid!</string>
+
+    <!-- Toast message in editor when attempt to save a product without a unit price [CHAR LIMIT=NONE] -->
+    <string name="editor_product_requires_price">Produk wajib memiliki harga!</string>
+
+    <!-- Toast message in editor when attempt to save a product without a supplier email address [CHAR LIMIT=NONE] -->
+    <string name="editor_product_requires_positive_price">Harga harus valid!</string>
+
+    <!-- Toast message in editor when attempt to save a product with an empty stock level [CHAR LIMIT=NONE] -->
+    <string name="editor_product_requires_positive_stock_level">Stok harus valid!</string>
+
+    <!-- Toast message in editor when attempt to save a product without an image [CHAR LIMIT=NONE] -->
+    <string name="editor_product_requires_image">Produk butuh gambar referensi !</string>
+
+    <!-- Toast message in editor when new product has failed to be inserted [CHAR LIMIT=NONE] -->
+    <string name="editor_insert_product_failed">Gagal menyimpan produk</string>
+
+    <!-- Toast message in editor when current product has failed to be updated [CHAR LIMIT=NONE] -->
+    <string name="editor_update_product_failed">gagal mengedit produk</string>
+
+    <!-- Toast message in catalog when unit sell of a product has failed [CHAR LIMIT=NONE] -->
+    <string name="catalog_sell_product_item_failed">Gagal menjual produk</string>
+
+    <!-- Toast message in catalog when unit sell of a product has failed because stock is null [CHAR LIMIT=NONE] -->
+    <string name="catalog_sell_product_item_failed_stock_empty">Stok produk ini habis !</string>
+
+    <!-- Toast message in editor when current product has failed to be deleted [CHAR LIMIT=NONE] -->
+    <string name="editor_delete_product_failed">Gagal menghapus produk</string>
+
+    <!-- Toast message in editor when attempt to delete all product from database has failed [CHAR LIMIT=NONE] -->
+    <string name="catalog_delete_all_products_failed">Gagal menghapus semua produk</string>
+
+</resources>
